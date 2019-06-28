@@ -29,6 +29,12 @@ Al cuestionarles si les interesaría una página o aplicación donde puedan cons
 
 ## Historias de usuarios
 
+![Historia de usuario 1](https://github.com/JudSL/MEX-Data-Lovers-008/blob/rama-Jud/img/Historiadeusuario1.png)
+
+![Historia de usuario 2](https://github.com/JudSL/MEX-Data-Lovers-008/blob/rama-Jud/img/Historiadeusuario2.png)
+
+![Historia de usuario 3](https://github.com/JudSL/MEX-Data-Lovers-008/blob/rama-Jud/img/Historiadeusuario3.png)
+
 ## Definición del producto
 
 Una página web donde se puedan visualizar a todos los campeones con sus skins y estadísticas principales, adicionalmente tener la opción de ordenarlos por nombre, intensidad de daño provocado y otras características.
