@@ -1,20 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Champions guide </title>
-    <link rel="icon" href="../img/Logo.ico" type="image/ico" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <section id="pageOne"
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <script src="./data/lol/lol.js"></script>
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="widht=device-widht, initial scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Champions guide </title>
+  <link rel="icon" href="../img/Logo.ico" type="image/ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section id="homePage">
+      <img src="../img/LogoDL.png" id="logoHome"> <br> <br>
+    <button type="button" id="btn1">Enter</button>
+  </section>
+  <section id="pageOne">
+    <header>
+      <div id="mainLogo">
+        <a href="homePage"><img src="../img/LogoDL.png" id="logo1"> </a> </div> 
+        <div id="search">
+          <input id="buscar" type="search" placeholder="champion name"> 
+          <img src="../img/magnifier.png" id="searchIcon">
+        </div>
+      </header>
+        <div id="menu">
+          <nav id="menuNav">
+            <ul>
+              <li id="item"><a href="#">Tipo</a>
+                <ul id="desple">
+                  <li><a href="#">Assasins</a></li>
+                  <li><a href="#">Tanque</a></li>
+                  <li><a href="#">Soporte</a></li>
+                  <li><a href="#">Tirador</a></li>
+                  <li><a href="#">Mago</a></li>
+                  <li><a href="#">Luchador</a></li>
+                </ul>
+              </li>
+              <li id="item"><a href="#">Order</a>
+                <ul id="desple">
+                  <li><a href="#">A-Z</a></li>
+                  <li><a href="#">Z-A</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+      </div>
+   
+<div id="bodyPageOne">
+  <br>
+  <br>
+  campeones LOL <br> <br> <br> <br> <br> <br> <br> <br>
+</div>
+  </section>
+  <!-- <script src="./data/injuries/injuries.js"></script> -->
+  <!-- <script src="./data/pokemon/pokemon.js"></script> -->
+  <!-- <script src="./data/steam/steam.js"></script> -->
+  <!-- <script src="./data/worldbank/worldbank.js"></script> -->
+  <script src="./data/lol/lol.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>
