@@ -1,103 +1,118 @@
 @font-face {
-    font-family: "LOL!";
-    src: url(fonts/LOL!.ttf);
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
+  font-family: "LOL!";
+  src: url(fonts/LOL!.ttf);
+}
 
-  #homePage {
-    background-image: url(../img/maxresdefault-2.jpg);
-    width: 100vw;
-    height: 100vh;
-    background-size: 100% 100%;
-    overflow: hidden;
-    background-color: gray;
-    background: #66999 url(background-photo.jpg) center center cover no-repeat fixed;
-  }
-  #logoHome {
-    margin: auto;
-    margin-top: -50px;
-    display: block;
-  }
-  #btn1 {
-    border: 2px rgb(239, 184, 16) outset;
-    font-family: "LOL!";
-    font-size: 20px;
-    color: rgb(239, 184, 16);
-    background-color: black;
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    bottom: 5px;
-    right: 580px;
-    border-radius: 4px;
-  }
-  
-  header {
-    width: 100vw;
-    overflow: hidden;
-    background-color: black;
-    text-align: center;
-  }
-  #mainLogo #logo1 {
-    width: 284px;
-    height: 125px;
-    float: left;
-  }
-  #menu #menuNav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    float: right;
-    font-size: 20px;
-    
-  }
-  
-  #menu #item {
-    float: left;
-    position: relative;
-    right: 150px;
-    width: 3cm;
-  }
-  
-  a {
-    background-color: black;
-    color: rgb(239, 184, 16);
-    display: block;
-    text-decoration: none;
-    padding: 12px 22px;
-    font-family: "LOL!";
-    width: 1.84cm;
-  }
-  
-  #menu #desple {
-    display: none;
-  }
-  #menu #item:hover #desple {
-    display: block;
-  }
-  #search {
-    position: relative;
-    top: 50px;
-    right: 30px;
-  }
-  #bodyPageOne {
-    width: 100vw;
-    background: linear-gradient(to bottom, black, gray);
-  }
-  #buscar {
-    width: 200px;
-    height: 25px;
-    border-radius: 6px;
-    border-color: rgb(239, 184, 16);
-  }
-  #searchIcon {
-    width: 16px;
-    height: 16px;
-    position: relative;
-    right: 25px;
-    top: 5px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#homePage {
+  background-image: url(../img/maxresdefault-2.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  overflow: hidden;
+  background-color: gray;
+  background: url(background-photo.jpg) center center cover no-repeat fixed;
+}
+#logoHome {
+  margin: auto;
+  margin-top: -50px;
+  display: block;
+}
+#btn1 {
+  border: 2px rgb(239, 184, 16) outset;
+  font-family: "LOL!";
+  font-size: 20px;
+  color: rgb(239, 184, 16);
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 5px;
+  right: 580px;
+  border-radius: 4px;
+}
+
+header {
+  width: 100vw;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+
+#mainLogo #logo1 {
+  width: 284px;
+  height: 125px;
+  float: left;
+}
+#menu #menuNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  font-size: 20px;
+}
+
+#menu #item {
+  float: left;
+  position: relative;
+  right: 150px;
+  width: 3cm;
+}
+
+a {
+  background-color: black;
+  color: rgb(239, 184, 16);
+  display: block;
+  text-decoration: none;
+  padding: 12px 22px;
+  font-family: "LOL!";
+  width: 1.84cm;
+}
+
+#menu #desple {
+  display: none;
+}
+#menu #item:hover #desple {
+  display: block;
+}
+#search {
+  position: relative;
+  top: 50px;
+  right: 30px;
+}
+body {
+  background: linear-gradient(to bottom, gray, black);
+}
+
+
+#allAvatar {
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 120px;
+  color: rgb(239, 184, 16);
+  font-family: "LOL!";
+}
+
+.img-champions {
+  width: 95px;
+  height:95px;
+}
+
+#buscar {
+  width: 200px;
+  height: 25px;
+  border-radius: 6px;
+  border-color: rgb(239, 184, 16);
+}
+#searchIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  right: 25px;
+  top: 5px;
+}
