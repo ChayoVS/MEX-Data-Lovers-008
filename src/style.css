@@ -265,7 +265,7 @@ footer {
   width: 100%; /*cambiar a 100 ambas*/
   height: 100%;
 }
-#flipCard {
+.flip-card {
   position: relative;
   width: 45%;
   align-items: center;
@@ -274,8 +274,8 @@ footer {
 }
 
 .flip-card-inner {
-  background-color: transparent;
-  color: rgb(239, 184, 16);
+  background-color:transparent;
+  color:rgb(239, 184, 16);
   position: relative;
   width: 100%; /* regresar a 100% width y height*/
   height: 100%;

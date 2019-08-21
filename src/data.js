@@ -1,5 +1,6 @@
 
-//filtrar por rol del campeón 
+const allAvatar =  document.getElementById('allAvatar')
+
 const roleBtn = document.getElementsByClassName('roleBtn');
 // console.log(roleBtn);
 for (let index = 0; index < roleBtn.length; index++) {

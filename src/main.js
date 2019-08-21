@@ -16,12 +16,13 @@ const openPageOne = () => {
   showSection ('pageOne');
 } 
 
-
-
 enterButton.addEventListener ('click', openPageOne);
 
 
-
+const openRolePage = () => {
+  showSection ('rolePage');
+  hideSection ('PageOne');
+}
 
 
 // //accediendo a data de aatrox
