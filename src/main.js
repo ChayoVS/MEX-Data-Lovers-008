@@ -11,19 +11,11 @@ const showSection =(id) => {
 }
 
 const openPageOne = () => {
-  hideSection ('rolePage');
   hideSection ('homePage');
   showSection ('pageOne');
 } 
 
 enterButton.addEventListener ('click', openPageOne);
-
-
-const openRolePage = () => {
-  showSection ('rolePage');
-  hideSection ('PageOne');
-}
-
 
 // //accediendo a data de aatrox
 // let dataBase = LOL.data
@@ -95,16 +87,14 @@ const showChampions= (newArray) => {
 };
 showChampions(newArray)
 
-
-
-
 // //empezando a ordenar, primero pruebo sort, sale ordenado raro
-// newArray.sort (console.log);
+// newArray.sort(); 
+// console.log (newArray.sort());
 
-//array usando una función de comparación, ya se ordena por orden a-z
+// //array usando una función de comparación, ya se ordena por orden a-z
 // console.log(newArray.sort ((a,b) => a-b));
 
-//usando reverse, pasan a orden Z-A
+// //usando reverse, pasan a orden Z-A
 // let reversa = newArray.reverse();
 // console.log(reversa);
 
@@ -155,10 +145,35 @@ const printByRole = (newArray) => {
   rolePage.innerHTML = stringV;
 }
 
-const initBtn = document.getElementById('initBtn');
-const openPageOne2 = () => {
-  hideSection ('rolePage');
-  showSection ('pageOne');
-} 
+// //jugando con los diferentes arreglos de tarjetas
+// const orderABC = document.getElementById('ascendant');
+// const orderZYX = document.getElementById('descendant')
 
-initBtn.addEventListener ('click', openPageOne2);
+// orderABC.addEventListener('click', () => {
+//   showChampions(sorData(newArray, 'name', 'ASC'));
+// });
+
+// orderZYX.addEventListener('click', () => {
+//   showChampions(sorData(newArray, 'name', 'DESC'))
+// });
+
+
+const orderABC = document.getElementById('ascendant');
+const orderZYX = document.getElementById('descendant')
+
+orderABC.addEventListener('click', () => {
+  showChampions(sorData(newArray, 'name', 'ASC'));
+});
+
+orderZYX.addEventListener('click', () => {
+  showChampions(sorData(newArray, 'name', 'DESC'))
+});
+
+
+// orderNameAsc.addEventListener('click', () => { /*  Ordenado ascendente por nombre*/
+//   cardData(sorData(dataPokemon, 'name', 'ASC'));
+// });
+// orderNameDes.addEventListener('click', () => { /* Ordenado descendente por nombre*/
+//   cardData(sorData(dataPokemon, 'name', 'DESC'));
+// });
+
