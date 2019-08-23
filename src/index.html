@@ -7,6 +7,7 @@
   <title>Champions guide </title>
   <link rel="icon" href="../img/Logo.ico" type="image/ico" />
   <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 </head>
 
 <body>
@@ -17,7 +18,8 @@
   <section id="pageOne" class="hide">
     <header>
       <div id="mainLogo">
-        <img src="../img/LogoDL.png" id="logo1" alt="Logotipo"></div>
+        <img src="../img/LogoDL.png" id="logo1" alt="Logotipo" class="img-fluid">
+      </div>
       <div id="search">
         <input id="buscar" type="search" placeholder="champion name">
       </div>
@@ -25,7 +27,6 @@
     <!-- <h1>Select a champion</h1> -->
     <nav id="menuNav">
       <!-- <ul> -->
-        <li class="item" id="initBtn">Champions</li>
         <li class="item">Order
           <ul id="desple">
             <li class="orderBtn" id="ascendant">A-Z</li>
@@ -42,6 +43,7 @@
             <li class="roleBtn" id="Tank">Tank</li>
           </ul>
         </li>
+        <li class="item staBtn" id="btn-sta">Statistics</li>
         
       <!-- </ul> -->
     </nav>
@@ -55,11 +57,13 @@
 <!--<section id="cards-champion">
 
   </section> -->
-  <footer id="foot">
-      <img src="../img/RiotLogo.jpg" alt="logoRiotGames" id="riotLogo">
+  <section class="modal-sta hide" id="modalEstadistica">
+    <p> Aquí se va a pintar la estadística</p>
+  </section>
+  <footer class="foot">
+      <img src="../img/RiotLogo.jpg" alt="logoRiotGames" id="riotLogo" class="logo-riot">
       <p>©2019 Riot Games</p>
-
-    </footer>
+     </footer>
   
   <script src="./data/lol/lol.js"></script>
   <script src="data.js"></script>

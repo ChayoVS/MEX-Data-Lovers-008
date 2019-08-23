@@ -155,14 +155,20 @@ body {
   position: relative;
 }
 
-footer {
+.foot {
   background-color: rgb(26, 25, 25);
   color: rgb(239, 184, 16);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
   align-items: center;
   bottom: 0;
   width: 100%;
+}
+
+.logo-riot {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .iconX {
@@ -331,4 +337,18 @@ footer {
 
 #cards-champion {
   display: none;
+}
+
+.card {
+  width: 21rem;
+  border-color: rgb(182, 160, 84) !important;
+  background-color: transparent !important;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 100%;
 }
