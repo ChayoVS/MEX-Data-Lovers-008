@@ -16,14 +16,10 @@ LoL cuenta con 145 campeones con características y estilo de juego único, tien
 ![Pregunta 7](https://github.com/JudSL/MEX-Data-Lovers-008/blob/master/img/7Mododejuego.png)
 ![Pregunta 8](https://github.com/JudSL/MEX-Data-Lovers-008/blob/master/img/8Escogiendocampe%C3%B3n.png)
 ![Pregunta 9](https://github.com/JudSL/MEX-Data-Lovers-008/blob/master/img/9Nuevapagina.png)
+
 ## User Persona
-Con los datos recabados de las respuestas a las preguntas de la encuesta que aplicamos podemos determinar el siguiente User Persona:
-La edad promedio del jugador de League of Legends es de entre 16 y 25 años, en su mayoría (72%)  son hombres.
-Un 41% de los jugadores lleva de 1 a 4 años jugando el juego, también notamos un grupo significativo (31.5%) que lleva jugando entre 4 y 8 años.
-Un poco más de la mitad de los jugadores juegan más de cuatro días a la semana, un tercio de los encuestados juega de dos a cuatro días. Casi la mitad de los jugadores le dedica de 1 a 3 horas al juego.
-La fuente de información más utilizada por los jugadores es la página oficial, seguida por grupos de Facebook y en tercer sitio los foros.
-El modo de juego favorito de la mayoría es La grieta del invocador.  Y los datos que los jugadores toman más en cuenta son el tipo (39.3%), la velocidad de ataque (19.9%) y el nombre (18.7%).
-Al cuestionarles si les interesaría una página o aplicación donde puedan consultar los datos de manera rápida, un 83.5 se mostró interesado.
+
+![User Persona](https://github.com/JudSL/MEX-Data-Lovers-008/blob/master/img/UserPersona.png)
 
 ## Necesidades de los usuarios
 
@@ -46,3 +42,9 @@ El objetivo de la página web es proveer información de los campeones de LoL a 
 ## Diseño de la interfaz de usuario
 
 ### Prototipo de baja fidelidad
+
+![Prototipo baja fidelidad](https://github.com/JudSL/MEX-Data-Lovers-008/blob/master/img/PrototipoBajaFidelidad.png)
+
+### Prototipo de alta fidelidad
+
+![Prototipo alta fidelidad](https://github.com/JudSL/MEX-Data-Lovers-008/blob/master/img/PrototipoAltaFidelidad.png)
