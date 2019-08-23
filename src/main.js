@@ -145,19 +145,6 @@ const printByRole = (newArray) => {
   rolePage.innerHTML = stringV;
 }
 
-// //jugando con los diferentes arreglos de tarjetas
-// const orderABC = document.getElementById('ascendant');
-// const orderZYX = document.getElementById('descendant')
-
-// orderABC.addEventListener('click', () => {
-//   showChampions(sorData(newArray, 'name', 'ASC'));
-// });
-
-// orderZYX.addEventListener('click', () => {
-//   showChampions(sorData(newArray, 'name', 'DESC'))
-// });
-
-
 const orderABC = document.getElementById('ascendant');
 const orderZYX = document.getElementById('descendant')
 
@@ -170,10 +157,15 @@ orderZYX.addEventListener('click', () => {
 });
 
 
-// orderNameAsc.addEventListener('click', () => { /*  Ordenado ascendente por nombre*/
-//   cardData(sorData(dataPokemon, 'name', 'ASC'));
-// });
-// orderNameDes.addEventListener('click', () => { /* Ordenado descendente por nombre*/
-//   cardData(sorData(dataPokemon, 'name', 'DESC'));
-// });
+//Haciendo función de búsqueda
 
+const searchInput = document.getElementById('buscar');
+
+
+const functionToSearch = () => {
+  let getInputValue = searchInput.value;
+  let firstCharacterToUpperCase = getInputValue.substring(0, 1).toUpperCase() + getInputValue.substring(1).toLowerCase();
+  let searchName = window.filterData(newArray, 'name', firstCharacterToUpperCase);
+  showChampions(searchName);
+};
+searchInput.addEventListener('keyup', functionToSearch);

@@ -32,6 +32,11 @@ const sorData= (newArray, sortBy, sortOrder) => {
     return newOrderData;
   };
 
+  const filterData = (data, filterBy, condition) => {
+    return data.filter(element => (element[filterBy].indexOf(condition) !== -1));
+  };
+
 
 window.roleBtn = roleBtn
 window.sorData = sorData
+window.filterData = filterData
