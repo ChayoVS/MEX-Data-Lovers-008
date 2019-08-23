@@ -75,13 +75,13 @@ const printAllAvatar = document.getElementById("allAvatar");
 const showChampions= (newArray) => {
   let str = "";
   for (let i = 0; i < newArray.length; i++) {
-    str += `<div  class="img-champions" >
-        <img id="img-avatar" src="${newArray[i].img}">
-        <br>
-      <div>
-       ${newArray[i].name}
-      </div>
-    </div>`;
+    str += `<div class="card">
+    <img src="${newArray[i].splash}" class="card-img-top img-fluid" alt="imgChampion">
+    <div class="card-body">
+      <h2 class="card-title">${newArray[i].name}</h2>
+      <p>${newArray[i].title} </p>
+    </div>
+  </div>`;
   }
   printAllAvatar.innerHTML = str;
 };
